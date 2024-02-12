@@ -1,14 +1,12 @@
-using TMPro;
+using DefaultNamespace;
 using UnityEngine;
-using UnityEngine.UI;
-
 public class testSceneScript : MonoBehaviour
 {
-    [SerializeField] private Button button;
-    [SerializeField] private TextMeshProUGUI text;
+    [SerializeField] private ProjectManager _projectManager;
+    [SerializeField] private EmproeeManager _emproeeManager;
     void Start()
     {
-        button.onClick.AddListener(() => text.text = "button pushed!");
+        _emproeeManager.Initialize();
+        _projectManager.SetRandomProject();
     }
-    
 }

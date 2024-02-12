@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c661d34f23a418ba53fa445ef5d5d22, type: 3}
+  m_Name: projects
+  m_EditorClassIdentifier: 
+  DataList:
+  - Name: "\u5C0F\u898F\u6A21\u958B\u767A1"
+    Cost: 3
+    Skill: 2
+    GetSkill: 1
+    LostMental: -1
+  - Name: "\u5C0F\u898F\u6A21\u958B\u767A2"
+    Cost: 4
+    Skill: 2
+    GetSkill: 1
+    LostMental: -1
+  - Name: "\u5C0F\u898F\u6A21\u958B\u767A3"
+    Cost: 5
+    Skill: 2
+    GetSkill: 1
+    LostMental: -1
+  - Name: "\u5C0F\u898F\u6A21\u958B\u767A4"
+    Cost: 6
+    Skill: 2
+    GetSkill: 1
+    LostMental: -1
+  - Name: "\u4E2D\u898F\u6A21\u958B\u767A1"
+    Cost: 7
+    Skill: 2
+    GetSkill: 2
+    LostMental: -1
+  - Name: "\u4E2D\u898F\u6A21\u958B\u767A2"
+    Cost: 8
+    Skill: 2
+    GetSkill: 2
+    LostMental: -1
+  - Name: "\u4E2D\u898F\u6A21\u958B\u767A3"
+    Cost: 9
+    Skill: 2
+    GetSkill: 2
+    LostMental: -1
+  - Name: "\u4E2D\u898F\u6A21\u958B\u767A3"
+    Cost: 9
+    Skill: 3
+    GetSkill: 2
+    LostMental: -1
+  - Name: "\u5927\u898F\u6A21\u958B\u767A1"
+    Cost: 10
+    Skill: 4
+    GetSkill: 3
+    LostMental: -2
